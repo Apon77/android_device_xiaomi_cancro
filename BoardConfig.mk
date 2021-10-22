@@ -34,5 +34,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 # Vendor Init
 TARGET_INIT_VENDOR_LIB      := libinit_cancro
 TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_cancro.cpp
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
 -include vendor/xiaomi/cancro/BoardConfigVendor.mk

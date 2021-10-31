@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 
 PRODUCT_NAME := aosp_cancro
